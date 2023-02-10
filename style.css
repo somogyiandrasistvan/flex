@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+article {
+    background-color: #eee;
+}
+
+header {
+    background-color: red;
+}
+
+article {
+    background-color: #ccc;
+}
+
+section {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+article {
+    text-align: justify;
+    color: beige;
+    margin: 5px;
+    background: #9c9c9c;
+    flex: 1 1 300px;
+}
